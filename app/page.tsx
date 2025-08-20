@@ -388,7 +388,7 @@ export default function EstudiantesPage() {
                   console.log("[v0] Input change:", e.target.value) // Added debug log for input changes
                   setSearchTerm(e.target.value)
                 }}
-                className="pl-12 pr-4 py-4 text-lg bg-background/95 backdrop-blur-sm border-0 shadow-lg"
+                className="pl-12 pr-4 py-4 text-lg bg-white text-black placeholder-gray-500 border border-gray-700 shadow-lg"
               />
             </div>
             {searchTerm && (
